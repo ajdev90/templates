@@ -1,0 +1,4 @@
+##### velocity template jettison
+#foreach ($key in $jsonObject)
+   $key | $jsonObject.get($key)
+#end

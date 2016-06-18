@@ -1,0 +1,5 @@
+##### velocity template jettison google.gson
+#foreach ($x in $jsonObject.entrySet())
+   $x.getKey() | $jsonObject.get($x.getKey())
+#end
+
